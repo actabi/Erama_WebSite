@@ -1,0 +1,147 @@
+.container {
+  @apply space-y-6;
+}
+
+.statsGrid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6;
+}
+
+.statCard {
+  @apply bg-white p-6 rounded-lg shadow-sm border border-gray-200 
+         flex items-center space-x-4;
+}
+
+.statIcon {
+  @apply p-3 rounded-full bg-blue-100 text-blue-600;
+}
+
+.statInfo {
+  @apply flex-1;
+}
+
+.statValue {
+  @apply text-2xl font-bold text-gray-900;
+}
+
+.statLabel {
+  @apply text-sm text-gray-500;
+}
+
+.actionBar {
+  @apply flex flex-col sm:flex-row justify-between items-center gap-4 mb-6;
+}
+
+.searchContainer {
+  @apply w-full sm:w-96;
+}
+
+.searchInput {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-lg 
+         focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+         placeholder-gray-400 transition-colors duration-150;
+}
+
+.addButton {
+  @apply flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg 
+         hover:bg-blue-600 transition-colors duration-150;
+}
+
+.tabs {
+  @apply flex space-x-1 bg-gray-100 p-1 rounded-lg mb-6;
+}
+
+.tab {
+  @apply flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md
+         transition-colors duration-150 focus:outline-none focus:ring-2 
+         focus:ring-offset-2 focus:ring-blue-500;
+}
+
+.tabActive {
+  @apply bg-white text-blue-600 shadow;
+}
+
+.content {
+  @apply grid grid-cols-1 lg:grid-cols-4 gap-6;
+}
+
+.mainContent {
+  @apply lg:col-span-3 bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+}
+
+.itemsGrid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-4;
+}
+
+.card {
+  @apply bg-white p-4 rounded-lg border border-gray-200 hover:shadow-md 
+         transition-shadow duration-150;
+}
+
+.cardHeader {
+  @apply flex justify-between items-start mb-3;
+}
+
+.cardTitle {
+  @apply text-lg font-medium text-gray-900;
+}
+
+.cardContent {
+  @apply mt-2 space-y-1 text-sm text-gray-600;
+}
+
+.cardActions {
+  @apply flex items-center space-x-2;
+}
+
+.actionButton {
+  @apply text-sm font-medium transition-colors duration-150;
+}
+
+.editButton {
+  @apply text-blue-600 hover:text-blue-800;
+}
+
+.deleteButton {
+  @apply text-red-600 hover:text-red-800;
+}
+
+.sidebar {
+  @apply lg:col-span-1;
+}
+
+.recentActivity {
+  @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+}
+
+.sidebarTitle {
+  @apply text-lg font-medium text-gray-900 mb-4;
+}
+
+.activityList {
+  @apply space-y-4;
+}
+
+.activityItem {
+  @apply flex items-center space-x-3 p-3 bg-gray-50 rounded-lg
+         hover:bg-gray-100 transition-colors duration-150;
+}
+
+.activityIcon {
+  @apply p-2 rounded-full bg-blue-100 text-blue-600;
+}
+
+.activityContent {
+  @apply flex-1;
+}
+
+.activityTitle {
+  @apply text-sm font-medium text-gray-900;
+}
+
+.activityDate {
+  @apply text-xs text-gray-500;
+}
+
+.emptyState {
+  @apply text-center py-12 text-gray-500;
+}

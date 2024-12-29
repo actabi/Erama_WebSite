@@ -1,0 +1,51 @@
+.expenseSection {
+  @apply bg-gray-50 p-6 rounded-lg mb-6;
+}
+
+.sectionTitle {
+  @apply text-lg font-medium text-gray-900 mb-4;
+}
+
+.expenseGrid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+}
+
+.expenseCategory {
+  @apply bg-white p-4 rounded-lg shadow-sm;
+}
+
+.categoryTitle {
+  @apply font-medium text-gray-700 mb-3;
+}
+
+.expenseList {
+  @apply space-y-3;
+}
+
+.expenseItem {
+  @apply space-y-1;
+}
+
+.expenseLabel {
+  @apply block text-sm text-gray-600;
+}
+
+.formInput {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500;
+}
+
+.totalSection {
+  @apply mt-6 p-4 bg-green-50 rounded-lg;
+}
+
+.totalTitle {
+  @apply text-lg font-medium text-green-900;
+}
+
+.totalAmount {
+  @apply text-2xl font-bold text-green-600 mt-1;
+}
+
+.infoText {
+  @apply text-sm text-gray-500 mt-2;
+}

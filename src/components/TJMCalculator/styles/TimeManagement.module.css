@@ -1,0 +1,23 @@
+/* ... styles existants ... */
+
+.absenceCard {
+  @apply bg-white p-6 rounded-lg shadow-sm space-y-2;
+}
+
+.absenceTitle {
+  @apply text-lg font-medium text-gray-900 mb-2;
+}
+
+.absenceInput {
+  @apply flex items-center gap-2;
+}
+
+.absenceHelp {
+  @apply text-sm text-gray-500 mt-1;
+}
+
+.hardshipReserve {
+  @apply flex justify-between items-center py-3 mt-4 border-t border-gray-200 font-medium text-blue-600;
+}
+
+/* ... autres styles ... */

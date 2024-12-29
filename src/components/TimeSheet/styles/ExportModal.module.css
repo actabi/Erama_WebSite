@@ -1,0 +1,75 @@
+.overlay {
+  @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50;
+}
+
+.modal {
+  @apply bg-white rounded-lg p-6 max-w-md w-full;
+}
+
+.header {
+  @apply flex justify-between items-center mb-6;
+}
+
+.title {
+  @apply text-lg font-medium text-gray-900;
+}
+
+.closeButton {
+  @apply text-gray-400 hover:text-gray-500 focus:outline-none;
+}
+
+.content {
+  @apply space-y-6;
+}
+
+.formGroup {
+  @apply space-y-2;
+}
+
+.label {
+  @apply text-sm font-medium text-gray-700;
+}
+
+.missionList {
+  @apply mt-2 max-h-60 overflow-y-auto space-y-2;
+}
+
+.missionItem {
+  @apply flex items-center space-x-2 p-2 hover:bg-gray-50 rounded-lg cursor-pointer;
+}
+
+.checkbox {
+  @apply h-4 w-4 text-blue-600 rounded border-gray-300 
+         focus:ring-blue-500 focus:ring-2;
+}
+
+.missionName {
+  @apply text-sm text-gray-700;
+}
+
+.optionLabel {
+  @apply flex items-center space-x-2 text-sm text-gray-700;
+}
+
+.footer {
+  @apply mt-6 flex justify-end space-x-3;
+}
+
+.cancelButton {
+  @apply px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 
+         rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 
+         focus:ring-offset-2 focus:ring-blue-500;
+}
+
+.exportButton {
+  @apply px-4 py-2 text-sm font-medium rounded-md focus:outline-none 
+         focus:ring-2 focus:ring-offset-2 focus:ring-blue-500;
+}
+
+.exportButtonEnabled {
+  @apply text-white bg-blue-600 hover:bg-blue-700;
+}
+
+.exportButtonDisabled {
+  @apply text-gray-400 bg-gray-100 cursor-not-allowed;
+}

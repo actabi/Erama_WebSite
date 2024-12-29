@@ -1,0 +1,23 @@
+.container {
+  @apply bg-white rounded-lg shadow-lg overflow-hidden;
+}
+
+.header {
+  @apply border-b border-gray-200;
+}
+
+.content {
+  @apply p-4 space-y-4;
+}
+
+.missionSummary {
+  @apply bg-white rounded-lg;
+}
+
+.grid {
+  @apply bg-white rounded-lg border border-gray-200;
+}
+
+.help {
+  @apply mt-4;
+}

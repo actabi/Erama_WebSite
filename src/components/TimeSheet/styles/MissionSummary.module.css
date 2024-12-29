@@ -1,0 +1,79 @@
+.container {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+.card {
+  @apply bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow duration-150;
+}
+
+.cardHeader {
+  @apply flex justify-between items-start mb-3;
+}
+
+.missionName {
+  @apply text-lg font-medium text-gray-900;
+}
+
+.missionType {
+  @apply px-2 py-1 text-sm rounded-full;
+}
+
+.missionTypeRegie {
+  @apply bg-blue-100 text-blue-800;
+}
+
+.missionTypeForfait {
+  @apply bg-green-100 text-green-800;
+}
+
+.stats {
+  @apply space-y-3;
+}
+
+.statRow {
+  @apply flex justify-between items-center text-sm;
+}
+
+.statLabel {
+  @apply text-gray-600;
+}
+
+.statValue {
+  @apply font-medium text-gray-900;
+}
+
+.progressBar {
+  @apply mt-3 h-2 bg-gray-200 rounded-full overflow-hidden;
+}
+
+.progressFill {
+  @apply h-full transition-all duration-300;
+}
+
+.progressFillNormal {
+  @apply bg-blue-500;
+}
+
+.progressFillWarning {
+  @apply bg-yellow-500;
+}
+
+.progressFillDanger {
+  @apply bg-red-500;
+}
+
+.footer {
+  @apply mt-4 pt-3 border-t border-gray-200;
+}
+
+.total {
+  @apply flex justify-between items-center text-sm font-medium;
+}
+
+.totalLabel {
+  @apply text-gray-600;
+}
+
+.totalValue {
+  @apply text-gray-900;
+}

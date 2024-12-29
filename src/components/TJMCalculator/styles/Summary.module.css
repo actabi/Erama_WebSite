@@ -1,0 +1,103 @@
+.summaryContainer {
+  @apply space-y-8;
+}
+
+.tjmGrid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+}
+
+.tjmCard {
+  @apply p-6 rounded-lg;
+}
+
+.tjmCardMinimum {
+  @apply bg-gradient-to-br from-red-500 to-red-600 text-white;
+}
+
+.tjmCardComfortable {
+  @apply bg-gradient-to-br from-yellow-500 to-yellow-600 text-white;
+}
+
+.tjmCardOptimal {
+  @apply bg-gradient-to-br from-green-500 to-green-600 text-white;
+}
+
+.tjmLabel {
+  @apply text-sm font-medium opacity-75;
+}
+
+.tjmValue {
+  @apply text-3xl font-bold mt-2;
+}
+
+.tjmDescription {
+  @apply text-sm mt-1 opacity-75;
+}
+
+.parametersGrid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+}
+
+.parameterCard {
+  @apply bg-white p-6 rounded-lg shadow;
+}
+
+.parameterTitle {
+  @apply text-lg font-medium mb-6;
+}
+
+.inputGroup {
+  @apply space-y-4;
+}
+
+.inputLabel {
+  @apply block text-sm font-medium text-gray-700;
+}
+
+.inputContainer {
+  @apply flex;
+}
+
+.formInput {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 flex-1;
+}
+
+.inputSuffix {
+  @apply ml-2 flex items-center text-gray-500;
+}
+
+.statsGrid {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.statCard {
+  @apply p-4 bg-gray-50 rounded-lg;
+}
+
+.statLabel {
+  @apply text-sm text-gray-600;
+}
+
+.statValue {
+  @apply mt-1 text-2xl font-semibold;
+}
+
+.expensesCard {
+  @apply bg-white p-6 rounded-lg shadow;
+}
+
+.expensesTitle {
+  @apply text-lg font-medium mb-6;
+}
+
+.expensesGrid {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.expenseBar {
+  @apply w-full bg-gray-200 rounded-full h-2;
+}
+
+.expenseProgress {
+  @apply h-2 rounded-full transition-all;
+}

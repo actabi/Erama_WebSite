@@ -1,0 +1,11 @@
+.header {
+  @apply flex justify-between items-center mb-4;
+}
+
+.navButton {
+  @apply px-3 py-1 bg-gray-100 rounded hover:bg-gray-200 transition-colors;
+}
+
+.monthTitle {
+  @apply text-xl font-semibold;
+}
